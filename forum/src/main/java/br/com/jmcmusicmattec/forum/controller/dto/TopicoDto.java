@@ -1,8 +1,8 @@
 package br.com.jmcmusicmattec.forum.controller.dto;
 
 import java.time.LocalDateTime;
-import java.util.List;
-import java.util.stream.Collectors;
+
+import org.springframework.data.domain.Page;
 
 import br.com.jmcmusicmattec.forum.modelo.Topico;
 
@@ -15,7 +15,6 @@ public class TopicoDto {
 	
 	
 	public TopicoDto(Topico topico) {
-		super();
 		this.id = topico.getId();
 		this.titulo = topico.getTitulo();
 		this.mensagem = topico.getMensagem();
@@ -33,9 +32,9 @@ public class TopicoDto {
 	public LocalDateTime getDataCriacao() {
 		return dataCriacao;
 	}
-	public static List<TopicoDto> converter(List<Topico> topicos) {
+	public static Page<TopicoDto> converter(Page<Topico> topicos) {
 		
-		return topicos.stream().map(TopicoDto::new).collect(Collectors.toList());
+		return topicos.map(TopicoDto::new);
 	}
 	
 	

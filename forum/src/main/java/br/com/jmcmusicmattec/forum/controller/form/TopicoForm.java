@@ -3,12 +3,14 @@ package br.com.jmcmusicmattec.forum.controller.form;
 import br.com.jmcmusicmattec.forum.modelo.Curso;
 import br.com.jmcmusicmattec.forum.modelo.Topico;
 import br.com.jmcmusicmattec.forum.repositories.CursoRepository;
-import com.sun.istack.NotNull;
+
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
 import org.hibernate.validator.constraints.Length;
 
 public class TopicoForm {
-        @NotNull @NotEmpty @Length(min = 5)
+    @NotNull @NotEmpty @Length(min = 5)
 	private String titulo;
 	@NotNull @NotEmpty @Length(min = 10)
         private String mensagem;
