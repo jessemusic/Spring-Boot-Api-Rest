@@ -1,0 +1,12 @@
+package br.com.jmcmusicmattec.forum.repositories;
+
+import org.junit.jupiter.api.Test;
+
+public class CursoRepositoryTest {
+
+	@Test
+	void test() {
+	
+	}
+
+}

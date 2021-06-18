@@ -4,6 +4,7 @@ package br.com.jmcmusicmattec.forum.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -20,6 +21,7 @@ import br.com.jmcmusicmattec.forum.controller.form.LoginForm;
 
 @RestController
 @RequestMapping("/auth")
+@Profile(value={"prod","test"})
 public class AutenticacaoController {
 
 	@Autowired
