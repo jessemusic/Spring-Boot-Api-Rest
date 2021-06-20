@@ -6,7 +6,6 @@ INDEX VERSION 1.131+C:\Users\jmc_c\eclipse-workspaceJesse\Blog JMCCURSOS\.metada
 3801885041.index
 2775034302.index
 1958671783.index
-2307334399.index
 647565956.index
 490844599.index
 2737159653.index

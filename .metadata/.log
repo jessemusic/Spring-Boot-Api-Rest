@@ -4596,3 +4596,15 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: start tag u
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-19 20:36:24.340
 !MESSAGE executing callback sts4.classpath.NqyJtHvc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-19 21:01:54.704
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NqyJtHvc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-19 21:01:54.706
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NqyJtHvc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-19 21:01:54.707
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-19 21:01:54.709
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NqyJtHvc => OK
