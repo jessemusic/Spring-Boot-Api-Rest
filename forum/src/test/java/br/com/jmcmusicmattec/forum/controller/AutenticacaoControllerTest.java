@@ -1,5 +1,7 @@
 package br.com.jmcmusicmattec.forum.controller;
 
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
 import java.net.URI;
 
 import org.junit.Test;
@@ -36,6 +38,7 @@ public class AutenticacaoControllerTest {
 		.andExpect(MockMvcResultMatchers
 		.status()
 		.is(400));
+		System.out.println("O status é : " + status());
 
 	}
 

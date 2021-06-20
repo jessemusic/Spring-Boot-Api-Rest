@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ForumApplicationTests" project="forum" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.jmcmusicmattec.forum.ForumApplicationTests" time="0.603" displayname="ForumApplicationTests" uniqueid="[engine:junit-jupiter]/[class:br.com.jmcmusicmattec.forum.ForumApplicationTests]">
+    <testcase name="contextLoads" classname="br.com.jmcmusicmattec.forum.ForumApplicationTests" time="0.603" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:br.com.jmcmusicmattec.forum.ForumApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>

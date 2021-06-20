@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AutenticacaoControllerTest" project="forum" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.jmcmusicmattec.forum.controller.AutenticacaoControllerTest" time="0.784" displayname="AutenticacaoControllerTest" uniqueid="[engine:junit-vintage]/[runner:br.com.jmcmusicmattec.forum.controller.AutenticacaoControllerTest]">
+    <testcase name="devolve400seAutenticarIncorreto" classname="br.com.jmcmusicmattec.forum.controller.AutenticacaoControllerTest" time="0.784" displayname="devolve400seAutenticarIncorreto" uniqueid="[engine:junit-vintage]/[runner:br.com.jmcmusicmattec.forum.controller.AutenticacaoControllerTest]/[test:devolve400seAutenticarIncorreto(br.com.jmcmusicmattec.forum.controller.AutenticacaoControllerTest)]"/>
+  </testsuite>
+</testrun>

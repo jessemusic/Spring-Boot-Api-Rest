@@ -1,19 +1,21 @@
 package br.com.jmcmusicmattec.forum.repositories;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.jmcmusicmattec.forum.modelo.Curso;
 
 
 
-
+@RunWith(SpringRunner.class)
 @DataJpaTest
 @AutoConfigureTestDatabase(replace =Replace.NONE )
 @ActiveProfiles("test")
@@ -34,8 +36,8 @@ public class CursoRepositoryTest {
 		em.persist(html5);
 		
 		Curso curso = repository.findByNome(nomeCurso);
-		Assertions.assertNotNull(curso);
-		Assertions.assertEquals(nomeCurso,curso.getNome());
+		Assert.assertNotNull(curso);
+		Assert.assertEquals(nomeCurso,curso.getNome());
 		
 		
 	}
@@ -44,7 +46,7 @@ public class CursoRepositoryTest {
 	public void findByCursoOutroNome() {
 		String nomeCurso = "JPA";
 		Curso curso = repository.findByNome(nomeCurso);
-		Assertions.assertNull(curso);	
+		Assert.assertNull(curso);	
 	}
 
 
