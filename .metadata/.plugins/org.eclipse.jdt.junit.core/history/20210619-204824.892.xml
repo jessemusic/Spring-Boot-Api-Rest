@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CursoRepositoryTest" project="forum" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="br.com.jmcmusicmattec.forum.repositories.CursoRepositoryTest" time="0.796" displayname="CursoRepositoryTest" uniqueid="[engine:junit-vintage]/[runner:br.com.jmcmusicmattec.forum.repositories.CursoRepositoryTest]">
-    <testcase name="findByCursoOutroNome" classname="br.com.jmcmusicmattec.forum.repositories.CursoRepositoryTest" time="0.72" displayname="findByCursoOutroNome" uniqueid="[engine:junit-vintage]/[runner:br.com.jmcmusicmattec.forum.repositories.CursoRepositoryTest]/[test:findByCursoOutroNome(br.com.jmcmusicmattec.forum.repositories.CursoRepositoryTest)]"/>
-    <testcase name="findByCursoNome" classname="br.com.jmcmusicmattec.forum.repositories.CursoRepositoryTest" time="0.074" displayname="findByCursoNome" uniqueid="[engine:junit-vintage]/[runner:br.com.jmcmusicmattec.forum.repositories.CursoRepositoryTest]/[test:findByCursoNome(br.com.jmcmusicmattec.forum.repositories.CursoRepositoryTest)]"/>
-  </testsuite>
-</testrun>

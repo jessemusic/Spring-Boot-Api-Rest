@@ -38,10 +38,10 @@ public class TokenService {
 	public boolean isTokenValido(String token) {
 		try {
 			Jwts.parser().setSigningKey(this.secret).parseClaimsJws(token);
-			System.out.println("Chegou aqui");
+			//System.out.println("Chegou aqui");
 			return true;
 		} catch (Exception e) {
-			System.out.println("Não chegou aqui!");
+			//System.out.println("Não chegou aqui!");
 			return false;
 		}
 	}
