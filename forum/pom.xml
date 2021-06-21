@@ -15,6 +15,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>forum</name>
 	<description>Demo project for Spring Boot</description>
+	
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -43,7 +44,7 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
-			<version>5.7.0</version><!--$NO-MVN-MAN-VER$-->
+			<version>5.7.0</version><!--$NO-MVN-MAN-VER$ -->
 			<scope>test</scope>
 		</dependency>
 
@@ -63,10 +64,12 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -102,6 +105,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>forummattec</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
